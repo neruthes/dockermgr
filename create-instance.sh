@@ -41,7 +41,7 @@ if [[ -z "$TARGET_APP_CLASS_ID" ]]; then
     echo "!!! [ERROR] You should supply the 'AppClassId' of the desired package."
 fi
 
-echo "[INFO] Lookking for class definition of '$TARGET_APP_CLASS_ID'..."
+echo "[INFO] Looking for class definition of '$TARGET_APP_CLASS_ID'..."
 
 if [[ ! -e "$CLASS_DATABASE_PREFIX/$TARGET_APP_CLASS_ID" ]]; then
     echo "!!! [ERROR] Cannot find class definition of '$TARGET_APP_CLASS_ID'."
