@@ -1,0 +1,8 @@
+AppClassId=test.nextcloud
+DockerImageIdentifier=nextcloud
+CreationParams=!
+DefaultPortMapOut=15002
+DefaultPortMapIn=80
+DefaultInstanceNamePrefix=nextcloud
+DefaultAutoStart=true
+DefaultMountPaths=/var/www/html

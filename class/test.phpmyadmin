@@ -1,0 +1,8 @@
+AppClassId=test.phpmyadmin
+DockerImageIdentifier=phpmyadmin
+CreationParams=-e PMA_ARBITRARY=1
+DefaultPortMapOut=15001
+DefaultPortMapIn=80
+DefaultInstanceNamePrefix=phpmyadmin
+DefaultAutoStart=true
+DefaultMountPaths=!
